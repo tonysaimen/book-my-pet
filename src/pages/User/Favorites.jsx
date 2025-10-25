@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Card, { CardContent } from '../../../components/UI/Card'
-import Button from '../../../components/UI/Button'
+import Card, { CardContent } from '../../components/UI/Card'
+import Button from '../../components/UI/Button'
 
 const Favorites = () => {
   const favoritePets = [
