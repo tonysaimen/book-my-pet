@@ -1,0 +1,38 @@
+/* Home page specific styles */
+.hero-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.feature-icon {
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover .feature-icon {
+  transform: scale(1.1);
+}
+
+/* Pet card animations */
+.pet-card {
+  transition: all 0.3s ease;
+}
+
+.pet-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Stats counter animation */
+.stat-number {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .hero-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
