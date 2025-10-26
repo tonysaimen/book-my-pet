@@ -1,6 +1,6 @@
 import React from 'react'
-import { usePets } from '../../../hooks/usePets'
-import Card, { CardContent } from '../../../components/UI/Card'
+import { usePets } from '../../hooks/usePets'
+import Card, { CardContent } from '../../components/UI/Card'
 
 const PetAnalytics = () => {
   const { pets } = usePets()

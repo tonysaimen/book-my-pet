@@ -1,7 +1,7 @@
 import React from 'react'
 // Fix the import  
 import Card from "../../components/UI/Card";
-import Button from '../../../components/UI/Button'
+import Button from '../../components/UI/Button'
 
 const MyBookings = () => {
   const bookings = [
