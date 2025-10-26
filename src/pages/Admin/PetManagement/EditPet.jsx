@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import { petsAPI } from '../../lib/api/pets'
+import { petsAPI } from '../../../lib/api/pets'
 import { useApp } from '../../contexts/AppContext'
 import PetForm from '../../components/Pets/PetForm'
 import Card, { CardHeader, CardContent } from '../../../components/UI/Card'
-import Button from '../../components/UI/Button'
+import Button from '../../components/U I/Button'
 import LoadingSpinner from '../../components/UI/LoadingSpinner'
 
 const EditPet = () => {
